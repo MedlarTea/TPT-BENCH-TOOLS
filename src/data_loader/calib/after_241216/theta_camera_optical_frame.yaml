@@ -1,0 +1,31 @@
+dataset_name: after_241216
+image_width: 1920
+image_height: 960
+camera_name: theta
+
+
+# Extrinsics from the sensor (reference) to zed2_left_camera_optical_frame (target)
+# quaternion_sensor_zed2_left_camera_optical_frame:
+#   rows: 1
+#   cols: 4
+#   dt: f
+#   data: [0.998, 0.065, 0.015, -0.009]
+# translation_sensor_zed2_left_camera_optical_frame:
+#   rows: 1
+#   cols: 3
+#   dt: f
+#   data: [-0.107, 0.306, 0.109]  # rosrun tf tf_echo theta_camera_optical_frame zed2_left_camera_optical_frame
+# timeshift_sensor_zed2_left_camera_optical_frame: 0.0  # unknown
+
+# Extrinsics from the sensor (reference) to os_sensor (target)
+# quaternion_sensor_os_sensor:
+#   rows: 1
+#   cols: 4
+#   dt: f
+#   data: [0.512, 0.505, -0.488, 0.495]
+# translation_sensor_os_sensor:
+#   rows: 1
+#   cols: 3
+#   dt: f
+#   data: [-0.003, 0.212, 0.003]  # rosrun tf tf_echo theta_camera_optical_frame os_sensor
+# timeshift_sensor_os_sensor: 0.0  # unknown

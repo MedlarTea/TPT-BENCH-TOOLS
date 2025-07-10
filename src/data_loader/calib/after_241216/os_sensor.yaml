@@ -1,0 +1,43 @@
+dataset_name: after_241216
+lidar_width_resolution: 2048
+lidar_height_resolution: 64
+lidar_name: OS1-64
+
+# Extrinsics from the sensor (reference) to osimu (target)
+quaternion_sensor_osimu:
+  rows: 1
+  cols: 4
+  dt: f
+  data: [1.0, 0.0, 0.0, 0.0] # (qw, qx, qy, qz)
+translation_sensor_osimu:
+  rows: 1
+  cols: 3
+  dt: f
+  data: [0.006, -0.012, 0.008]  # rosrun tf tf_echo os_sensor os_imu
+timeshift_sensor_osimu00: 0.0
+
+# Extrinsics from the sensor (reference) to theta_camera_optical_frame (target)
+# quaternion_sensor_theta_camera_optical_frame:
+#   rows: 1
+#   cols: 4
+#   dt: f
+#   data: [0.512, -0.505, 0.488, -0.495]
+# translation_sensor_theta_camera_optical_frame:
+#   rows: 1
+#   cols: 3
+#   dt: f
+#   data: [-0.006, -0.003, 0.212]
+# timeshift_sensor_theta_camera_optical_frame: 0.0  # unknown
+
+# Extrinsics from the sensor (reference) to zed2_left_camera_optical_frame (target)
+# quaternion_sensor_zed2_left_camera_optical_frame:
+#   rows: 1
+#   cols: 4
+#   dt: f
+#   data: [0.458, -0.537, 0.532, -0.468]
+# translation_sensor_zed2_left_camera_optical_frame:
+#   rows: 1
+#   cols: 3
+#   dt: f
+#   data: [0.104, 0.108, -0.093]
+# timeshift_sensor_zed2_left_camera_optical_frame: 0.0  # unknown

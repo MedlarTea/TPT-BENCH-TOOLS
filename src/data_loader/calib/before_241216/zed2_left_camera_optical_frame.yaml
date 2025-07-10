@@ -1,0 +1,85 @@
+dataset_name: after_241216
+image_width: 640
+image_height: 360
+camera_name: zed2
+camera_matrix:
+  rows: 3
+  cols: 3
+  dt: f
+  data: [ 266.7976989746094, 0.0, 329.3738708496094, 
+          0.0, 266.7976989746094, 176.24468994140625, 
+          0., 0., 1. ]
+distortion_model: plumb_bob
+# k1, k2, p1, p2, k3
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  dt: f
+  data: [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  dt: f
+  data: [ 1., 0., 0.,
+          0., 1., 0., 
+          0., 0., 1. ]
+projection_matrix:
+  rows: 3
+  cols: 4
+  dt: f
+  data: [ 266.7976989746094, 0.0, 329.3738708496094, 0.0, 
+          0.0, 266.7976989746094, 176.24468994140625, 0.0, 
+          0., 0., 1., 0. ]
+          
+
+# Extrinsics from the sensor (reference) to zed2_left_camera_frame (target)
+quaternion_sensor_zed2_left_camera_frame:
+  rows: 1
+  cols: 4
+  dt: f
+  data: [0.500, -0.500, 0.500, 0.500]
+translation_sensor_zed2_left_camera_frame:
+  rows: 1
+  cols: 3
+  dt: f
+  data: [0., 0., 0.]  # rosrun tf tf_echo zed2_left_camera_optical_frame zed2_left_camera_frame
+timeshift_sensor_zed2_left_camera_frame: 0.0  # unknown
+
+# Extrinsics from the sensor (reference) to zed2_imu_link (target)
+quaternion_sensor_zed2_imu_link:
+  rows: 1
+  cols: 4
+  dt: f
+  data: [0.502, 0.501, -0.498, 0.499]
+translation_sensor_zed2_imu_link:
+  rows: 1
+  cols: 3
+  dt: f
+  data: [0.023, -0.000, -0.002]  # rosrun tf tf_echo zed2_left_camera_optical_frame zed2_imu_link
+timeshift_sensor_zed2_imu_link: 0.0  # unknown
+
+# Extrinsics from the sensor (reference) to theta_camera_optical_frame (target)
+quaternion_sensor_theta_camera_optical_frame:
+  rows: 1
+  cols: 4
+  dt: f
+  data: [0.993, -0.116, -0.015, 0.005]
+translation_sensor_theta_camera_optical_frame:
+  rows: 1
+  cols: 3
+  dt: f
+  data: [0.065, -0.299, -0.041]  # rosrun tf tf_echo zed2_left_camera_optical_frame theta_camera_optical_frame
+timeshift_sensor_theta_camera_optical_frame: 0.0  # unknown
+
+# Extrinsics from the sensor (reference) to os_sensor (target)
+quaternion_sensor_os_sensor:
+  rows: 1
+  cols: 4
+  dt: f
+  data: [0.557, 0.438, -0.432, 0.559]
+translation_sensor_os_sensor:
+  rows: 1
+  cols: 3
+  dt: f
+  data: [0.050, -0.080, -0.039]  # rosrun tf tf_echo zed2_left_camera_optical_frame os_sensor
+timeshift_sensor_os_sensor: 0.0  # unknown
