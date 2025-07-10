@@ -14,7 +14,7 @@ class TPTBenchEvaluator:
         print("------------ Reading Results --------------")
         self.init_dirs()
         # self.read_data()
-        self.base_dir = os.path.join(base_dir, "baseline_results")
+        self.base_dir = os.path.join(base_dir, "evaluation_results")
         self.GT_dir = os.path.join(base_dir, "GTs")
 
     def init_dirs(self, ):

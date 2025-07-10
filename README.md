@@ -74,7 +74,7 @@ cd src
 python evaluate_baselines.py --dataset_dir /path/to/TPT-Bench
 ```
 - Requires 
-    - `$dataset_dir/baseline_results`
+    - `$dataset_dir/evaluation_results`
     - `$dataset_dir/GTs`
 
 2. Convert a sphere image (panoramic image) to a cylinder image (similar to pinhole-camera image)
@@ -127,7 +127,7 @@ python tracking_on_ground_plane.py --dataset_dir /path/to/TPT-Bench \
 
 
 ## How to evaluate your tracking results
-To evaluate your tracking results, please follow the JSON format provided in `$dataset_dir/baseline_results` and use the evaluation script `evaluate_baselines.py`. A valid output JSON file should look like this:
+To evaluate your tracking results, please follow the JSON format provided in `$dataset_dir/evaluation_results` and use the evaluation script `evaluate_baselines.py`. A valid output JSON file should look like this:
 ```json
 {
     "1727602424143298027": {
