@@ -19,13 +19,13 @@
 ### 📥 Download
 
 One Drive:
-- [TPT-Bench](https://1drv.ms/f/c/45762558a76db9f8/Esuc-i6-XqRNjJhZKjabg3IBZJnK8K30Jz0NWYzugurxdA), keyword: rcvtptbench
-- [rosbags (0000-0025)](https://1drv.ms/f/c/45762558a76db9f8/EoePvloZDlFJlXrvvWK1z6YBpdXIfaAc89Dv4PbZ3xyhAQ), keyword: rpfrosbag123!
-- [rosbags (0026-0047)](https://1drv.ms/f/c/40f76eb9a7827e2a/Es0Dnmmf0-1Ji_9xy1oH1XUBYAjcOLfgeoYdUirAtFjXvg), keyword: rpfrosbag123!
+- [TPT-Bench](https://1drv.ms/f/c/45762558a76db9f8/Esuc-i6-XqRNjJhZKjabg3IBZJnK8K30Jz0NWYzugurxdA), password: rcvtptbench
+- [rosbags (0000-0025)](https://1drv.ms/f/c/45762558a76db9f8/EoePvloZDlFJlXrvvWK1z6YBpdXIfaAc89Dv4PbZ3xyhAQ), password: rpfrosbag123!
+- [rosbags (0026-0047)](https://1drv.ms/f/c/40f76eb9a7827e2a/Es0Dnmmf0-1Ji_9xy1oH1XUBYAjcOLfgeoYdUirAtFjXvg), password: rpfrosbag123!
 
 Baidu Yun:
-- [TPT-Bench](https://pan.baidu.com/s/1CIA809gCY2KzOAmlhL_lBA), keyword: pf25
-- [rosbags](https://pan.baidu.com/s/1J5LOGTGExdj_F8dqrylEHQ), keyword: hj25
+- [TPT-Bench](https://pan.baidu.com/s/1CIA809gCY2KzOAmlhL_lBA), password: pf25
+- [rosbags](https://pan.baidu.com/s/1J5LOGTGExdj_F8dqrylEHQ), password: hj25
 
 > ⚠️ Note: `0002.bag` is missing LiDAR and ZED recordings due to hardware issues.
 
