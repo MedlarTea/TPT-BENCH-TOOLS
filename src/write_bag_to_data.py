@@ -16,6 +16,7 @@ if __name__ == "__main__":
     parser.add_argument('--sequence_name', type=str, required=True, help='Name of the sequence to process')
 
     parser.add_argument('--zed_rgb', action='store_true', help='Whether to store zed rgb images (default: False)')
+    parser.add_argument('--theta_rgb', action='store_true', help='Whether to store theta rgb images (default: False)')
     parser.add_argument('--zed_path_odom', action='store_true', help='Whether to zed path odom')
     parser.add_argument('--lidar_points', action='store_true', help='Whether to store lidar points (default: False)')
     
@@ -52,12 +53,12 @@ if __name__ == "__main__":
         print('     Saved {} Ouster points messages !'.format(num_msg))
 
     # theta_camera (NOT USED)
-    # if 'theta_image' in dataset_rostopic_msg_frameid_dict.keys():
-    #     print('Loading theta_camera messages...')
-    #     frame_left_image = Image(sensor_type='frame_cam', msg_type=dataset_rostopic_msg_frameid_dict['theta_image'][1])
-    #     output_data_path = os.path.join(dataset_path, sequence_name, 'theta_images')
-    #     num_msg = frame_left_image.load_messages_write_to_file(bag=input_bag, output_path=output_data_path, topic=dataset_rostopic_msg_frameid_dict['theta_image'][0])
-    #     print('     Saving {} theta_camera image messages !'.format(num_msg))
+    if args.theta_rgb and 'theta_image' in dataset_rostopic_msg_frameid_dict.keys():
+        print('Loading theta_camera messages...')
+        frame_left_image = Image(sensor_type='frame_cam', msg_type=dataset_rostopic_msg_frameid_dict['theta_image'][1])
+        output_data_path = os.path.join(dataset_dir, 'panoramic_images', sequence_name)
+        num_msg = frame_left_image.load_messages_write_to_file(bag=input_bag, output_path=output_data_path, topic=dataset_rostopic_msg_frameid_dict['theta_image'][0])
+        print('     Saving {} theta_camera image messages !'.format(num_msg))
 
     # zed_camera
     if args.zed_rgb and 'zed_rgb_image' in dataset_rostopic_msg_frameid_dict.keys():

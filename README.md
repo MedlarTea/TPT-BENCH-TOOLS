@@ -3,7 +3,7 @@
 > <b>TPT-Bench: A Large-Scale, Long-Term and Robot-Egocentric Dataset for Benchmarking Target Person Tracking </b> <br>
 > Hanjing Ye, Yu Zhan, Weixi Situ, Guangcheng Chen, Jingwen Yu, Ziqi Zhao, Kuanqi Cai, Arash Ajoudani and Hong Zhang <br>
 > Under Review<br>
-> [<u>arXiv</u>](http://arxiv.org/abs/2505.07446/) [<u>site</u>](https://medlartea.github.io/tpt-bench/), [<u>video</u>](https://www.youtube.com/watch?v=wrgdsGKH1MQ)
+> [<u>arXiv</u>](http://arxiv.org/abs/2505.07446/) [<u>site</u>](https://medlartea.github.io/tpt-bench/), [<u>video</u>](https://www.youtube.com/watch?v=LLZT9cEa6K0)
 
 <p align="center">
 <img src="cover.png" width="600" alt="Description">
