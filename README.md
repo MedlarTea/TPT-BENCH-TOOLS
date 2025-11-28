@@ -150,6 +150,21 @@ We sincerely thank the contributors of the following open-source tools for their
 - [Fusionpotable Tools](https://github.com/fusionportable/fusionportable_dataset_tools)
 
 ## Citation
+Data citation:
+@dataset{tpt2025ye,
+  author       = {Ye, Hanjing},
+  title        = {TPT-Bench: A Large-Scale, Long-Term and Robot-
+                   Egocentric Dataset for Benchmarking Target Person
+                   Tracking},
+  month        = nov,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.17718188},
+  url          = {https://doi.org/10.5281/zenodo.17718188},
+}
+
+Paper citation:
 ```
 @article{ye2025tpt,
   title={TPT-Bench: A Large-Scale, Long-Term and Robot-Egocentric Dataset for Benchmarking Target Person Tracking},
