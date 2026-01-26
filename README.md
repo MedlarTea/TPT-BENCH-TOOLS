@@ -10,7 +10,7 @@
 </p>
 
 ## NEWS
-
+- (20260126) Fix incorrect archive naming in `panoramic_images` (affected: `0019.zip–0026.zip`). Please re-download the corrected archives if you downloaded them previously. Thanks to [Zou Jianan](https://github.com/zjn0316) for reporting this issue.
 - (20250710) Release the TPT-Bench dataset and development tools
 
 
@@ -59,14 +59,14 @@ git clone https://github.com/MedlarTea/TPT-BENCH-TOOLS
 conda create -n tptbench python==3.7.16
 conda activate tptbench
 pip install -r requirements.txt
-python setup.py install
+pip install -e .
 ```
 > ⚠️ If you encountered rospy problem, you might need to install ros-noetic package and source it.
 
 ### ▶️ Usage
 0. Enter script path:
 ```bash
-cd src
+cd tpt_bench_tools
 ```
 
 1. Evaluate baseline results:
