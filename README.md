@@ -167,9 +167,11 @@ Data citation:
 Paper citation:
 ```
 @article{ye2025tpt,
-  title={TPT-Bench: A Large-Scale, Long-Term and Robot-Egocentric Dataset for Benchmarking Target Person Tracking},
-  author={Ye, Hanjing and Zhan, Yu and Situ, Weixi and Chen, Guangcheng and Yu, Jingwen and Zhao, Ziqi and Cai, Kuanqi and Arash, Ajoudani and Zhang, Hong},
-  journal={arXiv preprint arXiv:2505.07446},
-  year={2025}
+  title={TPT-Bench: A large-scale, long-term and robot-egocentric dataset for benchmarking target person tracking},
+  author={Ye, Hanjing and Zhan, Yu and Situ, Weixi and Chen, Guangcheng and Yu, Jingwen and Zhao, Ziqi and Cai, Kuanqi and Ajoudani, Arash and Zhang, Hong},
+  journal={The International Journal of Robotics Research},
+  pages={02783649261447308},
+  year={2025},
+  publisher={SAGE Publications, Sage UK: London, England}
 }
 ```
